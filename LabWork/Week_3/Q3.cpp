@@ -38,7 +38,7 @@ void Merge(int a[], int l, int mid, int r)
 }
 void merge_sort(int a[], int l,int r)
 {
-    while(l < r)
+    if(l < r)
     {
         int mid = (l + r) / 2;
         merge_sort(a, l, mid);
